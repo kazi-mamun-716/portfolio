@@ -18,15 +18,18 @@ class About extends Component {
         <h2 className={classes.heading}>Who Am I?</h2>
         <div className={classes.About}>
           <p>
-            Hi! My name is <b>SACHIN MITTAL</b>. I am a passionate developer having experience in{' '}
-            <b>Frontend</b> & <b>Mobile App </b> development complemented by backend expertise and
+            Hi! My name is <b>Kazi Mamun</b>. I am a Mechanical Engineer & Aspiring Full Stack Web Developer having experience in{' '}
+            <b>Frontend</b> & <b>Backend </b> development complemented by backend expertise and
             I'm currently working at{' '}
             <b>
-              <a className={classes.link} target='_blank' href='https://www.springworks.in/'>
-                Springworks
+              <a className={classes.link} target='_blank' href='https://www.smeb.online/'>
+                SMEB
               </a>
-            </b>{' '}
-            as a <b>Software Developer Engineer.</b> I am much interested in developing new things
+            </b>{' '} and <b>
+              <a className={classes.link} target='_blank' href='https://www.bimtian.org/'>
+                BIMTIAN
+              </a>
+            </b> Projects. I am continuously learning and expanding my skills to transition into a full stack web developer role. I am much interested in developing new things
             which excite me a lot. :)
           </p>
           <p className={classes.br}>

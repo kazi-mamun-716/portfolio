@@ -4,152 +4,43 @@ import Tilt from 'react-parallax-tilt';
 // import ScrollAnimation from 'react-animate-on-scroll';
 
 import classes from './Projects.module.css';
-import bookheap from '../images/bookheap.png';
-import chess from '../images/chess.png';
-import shopping from '../images/shopping-app.png';
-import travel from '../images/travel-log.png';
-import definition from '../images/definition.png';
-import memes from '../images/memes.png';
-import superhero from '../images/superhero.png';
-import monorepo from '../images/monorepo.png';
-import profilee from '../images/profilee.png';
-import courseApp from '../images/courseApp.png';
-import chatGPT from '../images/chatGPT.png';
-import challenges from '../images/frontend-challenges.png';
+import bimtian from '../images/bimtian.png';
+import smeb from '../images/smeb.png';
 import github from '../images/github.png';
-import frontenddev from '../images/frontenddev.jpg';
-import jumpstart from '../images/jumpstart.png';
+import awesome_blog from '../images/awesome-blog.png';
 
 // Web projects
 const webItem = [
   {
-    link: 'https://www.profilee.info/',
-    title: 'Profilee - An OS link in bio',
-    techStack: 'Tech Stack: Next JS, Tailwind, Typescript, Prisma, AWS S3',
-    desc: 'Profilee is an open source profile link bio page builder',
-    image: profilee,
+    link: 'https://www.bimtian.org/',
+    title: 'BIMTIAN - A Marine Student Archive`',
+    techStack: 'Tech Stack: React JS, Redux Toolkit, Bootstrap, MySql, VPS hosting',
+    desc: 'BIMTian is Marine Students archive type website',
+    image: bimtian,
     color: '#0FFFFF',
-    githubLink: 'https://github.com/mittalsam98/profilee'
+    githubLink: 'https://github.com/kazi-mamun-716/bimtians-client'
   },
   {
-    link: 'https://react-machine-coding.netlify.app/',
-    title: 'Frontend challenges',
+    link: 'https://stride-blog-client.vercel.app/',
+    title: 'Awesome Blog',
     techStack: 'Useful repo for most common frontend challenges',
-    desc: 'Technology used: React Js, Mantine UI, Context API',
-    image: frontenddev,
+    desc: 'Technology used: React Js, bootstrap, Redux Toolkit, Mongodb',
+    image: awesome_blog,
     color: '#E5E483',
-    githubLink: 'https://github.com/mittalsam98/frontenddev'
+    githubLink: 'https://github.com/kazi-mamun-716/awesome-blog'
   },
   {
-    link: 'https://www.saasjumpstart.live/',
-    title: 'Sass Boilerplate',
+    link: 'https://www.smeb.online/',
+    title: 'SMEB',
     techStack:
-      'Technology used: Typescript, Nextjs, Prisma, Tailwind CSS, AWS S3, React Drag and Drop, Zod',
-    desc: 'Next.js boilerplate setup for the repetitive work. It comes with authentication with email verification, stripe payment integration, customizable components, email preview, and much more.',
-    image: jumpstart,
+      'Technology used: Reactjs, Mongodb, Tailwind CSS, VPS Hosting, Redux Toolkit, Vite',
+    desc: 'This is a community based website.',
+    image: smeb,
     color: '#D2E0FB'
     // githubLink: 'https://github.com/mittalsam98'
   },
-  {
-    link: 'https://www.youtube.com/watch?v=Dlxz9RnltMA&ab_channel=SachinMittal',
-    title: 'E-Commerce app',
-    techStack: 'Tech Stack: Monorepo, Typescript, MERN',
-    desc: 'It is a e-commerce app built in a MERN stack using Monorepo. This is 100% typescript.',
-    image: monorepo,
-    color: '#FEA1A1',
-    githubLink: 'https://github.com/mittalsam98/E-commerce-app'
-  },
-  {
-    link: 'https://courses-portal.netlify.app/',
-    title: 'Course Selling App',
-    techStack: 'Tech Stack: React JS, Tailwind CSS, Node JS, MongoDB, Razorpay for payments',
-    desc: 'Separate User and Admin panels, User can purchase courses',
-    image: courseApp,
-    color: '#C1A4AA',
-    githubLink: 'https://github.com/mittalsam98/Course-Selling-App'
-  },
-  {
-    link: 'https://chit-chat-gpt-app.vercel.app/',
-    title: 'ChatGPT clone',
-    techStack:
-      'Tech Stack: Next.js 13, Tailwind CSS, Prisma, ZOD for validation, Recoil for state managements, TypeScript, OpenAI',
-    desc: 'Chat GPT clone with signup and signin, previous chat save functionality',
-    image: chatGPT,
-    color: '#FFA6C9',
-    githubLink: 'https://github.com/mittalsam98/chat-gpt-clone'
-  },
-  {
-    link: 'https://frontend-questions.netlify.app/',
-    title: 'Frontend Challenges',
-    techStack: 'Tech Stack: Pure HTML, CSS and JS',
-    desc: 'Frontend challenges in vanilla HTML,CSS and JS',
-    image: challenges,
-    color: '#a9def9',
-    githubLink: 'https://github.com/mittalsam98/frontend-challenges'
-  },
-  {
-    link: 'https://chess-web-online.netlify.app/',
-    title: 'Realtime Online Chess',
-    techStack: 'Tech Stack- ReactJs, NodeJS, Express, Socket.io.',
-    desc: 'Play real time chess with your friends online by sharing a link.',
-    image: chess,
-    color: '#d5ebda',
-    githubLink:
-      'https://github.com/mittalsam98?tab=repositories&q=chess&type=&language=javascript&sort=stargazers'
-  },
-  {
-    link: 'https://bookheap-app.netlify.app/',
-    title: 'Online Book Store',
-    techStack: 'Tech Stack: MERN Stack',
-    desc: 'It is a book selling web app built in a MERN stack . You can sell books by uploading images and can also see what others are selling.',
-    image: bookheap,
-    color: '#f3e4f1',
-    githubLink:
-      'https://github.com/mittalsam98?tab=repositories&q=bookheap&type=&language=javascript&sort=stargazers'
-  },
-  {
-    link: 'https://travel-log-frontend-two.vercel.app/',
-    title: 'Travel Log',
-    techStack: 'Tech Stack- MERN Stack, Mapbox',
-    desc: 'A full stack application to store / list places you have visited. You can log every visit on map.',
-    image: travel,
-    color: '#EEA47F',
-    githubLink:
-      'https://github.com/mittalsam98?tab=repositories&q=travel&type=&language=javascript&sort=stargazers'
-  }
 ];
 
-const androidAppItems = [
-  {
-    link: 'https://play.google.com/store/apps/details?id=com.thesachin.your_dictionary',
-    title: 'Definition Finder',
-    techStack: 'Tech Stack: Flutter',
-    desc: 'Definition Finder is absolutely free online dictionary with every word you look up. Millions of definitions from the most trusted source.',
-    image: definition,
-    color: '#CBD18F',
-    githubLink:
-      'https://github.com/mittalsam98?tab=repositories&q=&type=&language=dart&sort=stargazers'
-  },
-  {
-    link: 'https://play.google.com/store/apps/details?id=com.thesachin.superheroes',
-    title: 'My Superhero',
-    techStack: 'Tech Stack- Flutter',
-    desc: 'My SuperHero app provides all SuperHeroes and Villians data like powerstats, full name from all the universes.',
-    image: superhero,
-    color: '#d0f4de',
-    githubLink: 'https://github.com/mittalsam98/super_hero_app'
-  },
-  {
-    link: 'https://play.google.com/store/apps/details?id=com.thesachin.memestemplate',
-    title: 'Indian Memes Templates',
-    techStack: 'Tech Stack- Flutter',
-    desc: ' Indian meme templates - Memeशाला contains a wide range of Indian meme templates including Bollywood, political, Indian shows. You can edit and create memes too.',
-    image: memes,
-    color: '#e9c46a',
-    githubLink:
-      'https://github.com/mittalsam98?tab=repositories&q=&type=&language=dart&sort=stargazers'
-  }
-];
 
 export default function Projects() {
   const getProjectCard = (cardItem) => {
@@ -186,12 +77,6 @@ export default function Projects() {
       <h2 className={classes.heading}>WEB APP PROJECTS</h2>
       <ul className={classes.cards}>
         {webItem.map((item) => {
-          return getProjectCard(item);
-        })}
-      </ul>
-      <h2 className={classes.heading}>ANDROID APP PROJECTS</h2>
-      <ul className={classes.cards}>
-        {androidAppItems.map((item) => {
           return getProjectCard(item);
         })}
       </ul>

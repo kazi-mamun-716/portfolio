@@ -37,7 +37,7 @@ export default function CarouselImage() {
               }}
             >
               <a
-                href='https://drive.google.com/file/d/1XwQYRl06QtuNPT8v4fHkbajk1ll9LTbi/view?usp=sharing'
+                href='https://drive.google.com/file/d/1pNdnJ7s9U9iYEyWZ8oWcNXP_3C2H3GDC/view?usp=drive_link'
                 rel='opener noreferrer'
                 target='_blank'
               >
@@ -58,15 +58,6 @@ export default function CarouselImage() {
             >
               VIEW Web PROJECTS <GoProject />
             </a>
-            <div className={classes.secondButton}>
-              <a
-                href='https://github.com/kazi-mamun-716?tab=repositories'
-                rel='opener noreferrer'
-                target='_blank'
-              >
-                VIEW ANDROID PROJECTS <GoProject />
-              </a>
-            </div>
           </div>
         </div>
       </Carousel>
