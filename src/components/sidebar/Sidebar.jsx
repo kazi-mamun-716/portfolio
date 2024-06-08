@@ -3,12 +3,11 @@ import './Sidebar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { motion } from 'framer-motion';
 
-import logo from '../images/sam.png';
+import logo from '../../assets/images/kazi_mamun.jpg';
 import github from '../images/github.png';
-import instagram from '../images/instagram.png';
-import twitter from '../images/twitterx.png';
 import linkedin from '../images/linkedin.png';
 import gmail from '../images/gmail.png';
+import facebook from '../images/facebook.png';
 
 export default function Sidebar() {
   const container = {
@@ -25,23 +24,19 @@ export default function Sidebar() {
   const iconList = [
     {
       component: github,
-      href: 'https://github.com/mittalsam98'
+      href: 'https://github.com/kazi-mamun-716/'
     },
     {
       component: linkedin,
-      href: 'https://www.linkedin.com/in/sachin-mittal-476174158?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BoRhF2EUsQJ%2BygJpLEZb%2FFA%3D%3D'
+      href: 'https://www.linkedin.com/in/kazi-mamun-336595111/'
     },
     {
-      component: twitter,
-      href: 'https://twitter.com/Sachin_Mittal98'
-    },
-    {
-      component: instagram,
-      href: 'https://www.instagram.com/decent_sachin.mittal'
+      component: facebook,
+      href: 'https://www.facebook.com/kazi.mamun.716/'
     },
     {
       component: gmail,
-      href: 'mailto:mittalsam98@gmail.com'
+      href: 'mailto:kazimamun716@gmail.com'
     }
   ];
   const item = {
@@ -59,7 +54,7 @@ export default function Sidebar() {
       <div className='topHashtag'># coding</div>
       <h1>
         <Link smooth to='/#start' className='h1_links'>
-          Sachin Mittal
+          Kazi Mamun
         </Link>
       </h1>
       <motion.div
@@ -75,7 +70,7 @@ export default function Sidebar() {
           target='_blank'
           className='fa fa-envelope'
         ></a>
-        &nbsp;mittalsam98@gmail.com
+        &nbsp;kazimamun716@gmail.com
       </p>
 
       <ul className='sidebar-nav'>

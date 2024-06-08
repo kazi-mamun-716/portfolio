@@ -27,7 +27,7 @@ export default function CarouselImage() {
         <div>
           <img className={classes.image} src={Hello} alt='myImage' />
           <div className={classes.h1}>
-            I'm Sachin
+            I'm Kazi Mamun
             <motion.h1
               initial={{ scale: 1 }}
               animate={{ scale: [1, 1.2, 1] }} // Define the scale values for the bouncing effect
@@ -52,7 +52,7 @@ export default function CarouselImage() {
             <h1> I love building</h1>
             <h1>THINGS!!</h1>
             <a
-              href='https://github.com/mittalsam98?tab=repositories&q=&type=public&language=&sort='
+              href='https://github.com/kazi-mamun-716?tab=repositories'
               rel='opener noreferrer'
               target='_blank'
             >
@@ -60,7 +60,7 @@ export default function CarouselImage() {
             </a>
             <div className={classes.secondButton}>
               <a
-                href='https://github.com/mittalsam98?tab=repositories&q=&type=&language=dart&sort='
+                href='https://github.com/kazi-mamun-716?tab=repositories'
                 rel='opener noreferrer'
                 target='_blank'
               >
