@@ -28,7 +28,7 @@ export default function Sidebar() {
     },
     {
       component: linkedin,
-      href: 'https://www.linkedin.com/in/kazi-mamun-336595111/'
+      href: 'https://www.linkedin.com/in/kazi-mamun-bd'
     },
     {
       component: facebook,
