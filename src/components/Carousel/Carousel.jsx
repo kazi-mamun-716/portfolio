@@ -37,7 +37,7 @@ export default function CarouselImage() {
               }}
             >
               <a
-                href='https://drive.google.com/file/d/1e2J2TjFQJvsvwkQ06QK8AoQYiWbbJ2Y2/view?usp=sharing'
+                href='https://drive.google.com/file/d/1NO9GVpaxWj1juHIUaTNuIZaj1WgvofP-/view'
                 rel='opener noreferrer'
                 target='_blank'
               >
